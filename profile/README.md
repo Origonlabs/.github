@@ -1,4 +1,7 @@
-## Opendex · Open Source
+![Codigo Aierto de Opendex](https://github.com/Origonlabs/.github/blob/main/images/github-opendex-community.png)
+
+
+## 
 
 Bienvenido al perfil de la organización Opendex en GitHub. Aquí impulsamos proyectos de software libre con foco en calidad, seguridad y colaboración abierta.
 
