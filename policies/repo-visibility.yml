@@ -1,0 +1,8 @@
+name: Repo Visibility Policy
+description: Provides governance for opening repositories to open source under Opendex.
+
+resource: repository
+
+configuration:
+  repoVisibilitySettings:
+    active: true

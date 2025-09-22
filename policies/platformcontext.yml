@@ -1,0 +1,10 @@
+name: platform_context
+description: The context for Opendex GitOps platform; drives GitOps-specific policies
+owner: 
+resource: repository
+where: 
+configuration:
+  platformContext:
+    active: true
+onFailure: 
+onSuccess:

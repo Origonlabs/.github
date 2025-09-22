@@ -1,0 +1,40 @@
+# metadata
+name: Mandatory files policy.
+description: this policy will ensure the presence of important files in Opendex project repositories.
+
+# filters
+resource: repository
+where:
+- |
+  !repository.name.equals("openjdk-jdk", StringComparison.InvariantCultureIgnoreCase)
+  && !repository.name.equals("openjdk-jdk11u", StringComparison.InvariantCultureIgnoreCase)
+  && !repository.name.equals("openjdk-jdk17u", StringComparison.InvariantCultureIgnoreCase)
+  && !repository.name.equals("openjdk-jdk20u", StringComparison.InvariantCultureIgnoreCase)
+  && !repository.name.equals("openjdk-jdk21u", StringComparison.InvariantCultureIgnoreCase)
+  && !repository.name.equals("vscode-wiki", StringComparison.InvariantCultureIgnoreCase) # A special repo that mirrors vscode.wiki to enable contributions
+
+# primitive configuration
+configuration:
+    mandatoryFiles:
+     autoMergeDays: 10
+     issueTitle: This repo is missing important files
+     issueBody:  |
+          There are important files that Opendex projects should all have that are not present in this repository. A pull request has been opened to add the missing file(s). When the PR is merged this issue will be closed automatically.
+          
+          Opendex maintainers can learn more about this effort in our internal guidance.
+     prTitle: Adding Opendex SECURITY.MD
+     prBody:  |
+           Please accept this contribution adding the standard Opendex SECURITY.MD :lock: file to help the community understand the security policy and how to safely report security issues. GitHub uses the presence of this file to light-up security reminders and a link to the file.
+           
+           This pull request commits the latest official SECURITY.MD file from this repo's organizational template.
+     file:
+      - path: SECURITY.md
+        prContentLink: https://raw.githubusercontent.com/opendex/.github/main/shared/SECURITY.md
+        ignoreCase: true
+        prFilePath: SECURITY.md
+        otherPaths:
+        - docs/SECURITY.md
+        - .github/SECURITY.md
+     issueReminder:
+        firstReminderGapDays: 7               
+        followUpReminderGapDays: 2
