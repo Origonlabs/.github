@@ -11,7 +11,7 @@ Bienvenido al perfil de la organización Opendex en GitHub. Aquí impulsamos pro
 - Busca issues etiquetadas como "good first issue" para comenzar.
 - Usa las issues del repositorio para preguntas específicas del proyecto.
 
-Visita nuestro sitio para conocer más sobre iniciativas y guías de contribución: [labs.opendex.dev](https://labs.opendex.dev) (en preparación).
+Visita nuestro sitio para conocer más sobre iniciativas y guías de contribución: [labs](https://labs.opendex.dev) (en preparación).
 
 ----
 
