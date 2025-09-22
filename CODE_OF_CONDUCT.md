@@ -5,4 +5,4 @@ Este proyecto adopta el Código de Conducta de Opendex. El objetivo es fomentar 
 Recursos:
 
 - Código de Conducta de Opendex: https://opensource-codeofconduct.opendex.dev/
-- Preguntas o inquietudes: conduct@opendex.org
+- Preguntas o inquietudes: conduct@opendex.dev
