@@ -1,18 +1,18 @@
-![Codigo Aierto de Opendex](https://github.com/Origonlabs/.github/blob/main/images/github-opendex-community.png)
+![Opendex Open Source](https://github.com/Origonlabs/.github/blob/main/images/github-opendex-community.png)
 
 
 ## 
 
-Bienvenido al perfil de la organización Opendex en GitHub. Aquí impulsamos proyectos de software libre con foco en calidad, seguridad y colaboración abierta.
+Welcome to the Opendex organization profile on GitHub. Here we promote open source software projects with a focus on quality, security, and open collaboration.
 
-### Cómo participar
+### How to participate
 
-- Explora nuestros proyectos destacados en la organización.
-- Busca issues etiquetadas como "good first issue" para comenzar.
-- Usa las issues del repositorio para preguntas específicas del proyecto.
+- Explore our featured projects in the organization.
+- Look for issues tagged "good first issue" to get started.
+- Use the repository issues for project-specific questions.
 
-Visita nuestro sitio para conocer más sobre iniciativas y guías de contribución: [labs](https://labs.opendex.dev) (en preparación).
+Visit our site to learn more about initiatives and contribution guides: [labs](https://labs.opendex.dev) (in preparation).
 
 ----
 
-Los proyectos de Opendex adoptan un Código de Conducta. Visita https://opensource-codeofconduct.opendex.dev para la versión oficial.
+Opendex projects adopt a Code of Conduct. Visit https://opensource-codeofconduct.opendex.dev for the official version.
