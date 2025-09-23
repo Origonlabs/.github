@@ -1,8 +1,8 @@
-# Código de Conducta de Opendex
+# Opendex Code of Conduct
 
-Este proyecto adopta el Código de Conducta de Opendex. El objetivo es fomentar una comunidad abierta, segura e inclusiva.
+This project adopts the Opendex Code of Conduct. The goal is to foster an open, safe, and inclusive community.
 
-Recursos:
+Resources:
 
-- Código de Conducta de Opendex: https://opensource-codeofconduct.opendex.dev/
-- Preguntas o inquietudes: conduct@opendex.dev
+- Opendex Code of Conduct: https://opensource-codeofconduct.opendex.dev
+- Questions or concerns: conduct@opendex.dev
