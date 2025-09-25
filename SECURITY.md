@@ -1,26 +1,53 @@
-## Seguridad en Opendex
+# Security at Opendex
 
-Opendex toma seriamente la seguridad de su software y repositorios. Si crees haber encontrado una vulnerabilidad en cualquier repositorio de Opendex, por favor repórtala como se indica a continuación.
+At **Opendex Corporation**, the security of our software, services, and repositories is a strategic priority.  
+We are committed to maintaining resilient, reliable, and transparent systems for our customers, partners, and the broader community.  
 
-### Reporte de vulnerabilidades
+If you discover a potential vulnerability in any Opendex component, please follow the reporting process described below.  
 
-- No reportes vulnerabilidades mediante issues públicas en GitHub.
-- Envía tu reporte a `security@opendex.org`.
-- Si prefieres cifrar tu mensaje, solicita nuestra clave PGP a través del mismo correo; publicaremos la clave en `https://opendex.org/security/pgp` (en preparación).
+---
 
-Incluye en tu reporte, en la medida de lo posible:
+## Reporting a Vulnerability
 
-- Tipo de problema (desbordamiento de búfer, inyección SQL, XSS, etc.).
-- Rutas de archivos y ubicación del código afectado (tag/branch/commit o URL directa).
-- Configuración especial necesaria para reproducir el problema.
-- Pasos detallados para la reproducción.
-- Prueba de concepto o exploit (si es posible).
-- Impacto potencial y cómo podría explotarse.
+- Do not report vulnerabilities via public GitHub issues or discussions.  
+- All reports must be submitted privately to our security team at:  
+  **security@opendex.org**  
+- For encrypted communication, you may request our PGP key via the same email address.  
+  The key will also be published at: [https://community.opendex.dev/security/pgp](https://community.opendex.dev/security/pgp) *(in preparation)*  
 
-### Idioma preferido
+---
 
-- Español o inglés.
+## Information to Include in a Report
 
-### Política
+To help us investigate and respond efficiently, please provide as much of the following information as possible:  
 
-- Opendex sigue el principio de Coordinated Vulnerability Disclosure (CVD).
+- Technical description of the issue (e.g., buffer overflow, SQL injection, XSS, privilege escalation).  
+- Affected files, paths, or modules, including tag, branch, commit, or direct URL.  
+- Any special configuration required to reproduce the issue.  
+- Detailed reproduction steps.  
+- Proof of concept (PoC) or working exploit, if available.  
+- Assessment of potential impact and possible exploitation scenarios.  
+
+---
+
+## Preferred Languages
+
+- English  
+- Spanish  
+
+---
+
+## Disclosure Policy
+
+Opendex follows the **Coordinated Vulnerability Disclosure (CVD)** framework:  
+
+1. The researcher responsibly reports the vulnerability to the Opendex security team.  
+2. Opendex acknowledges receipt and begins validation and mitigation.  
+3. A reasonable disclosure timeline is coordinated with the researcher.  
+4. Once remediation is complete, Opendex publishes the technical details and, if authorized, credits the researcher for their contribution.  
+
+---
+
+## Acknowledgment
+
+Opendex values the contributions of the security community. Upon request, we publicly acknowledge researchers who help strengthen the security of our platform.  
